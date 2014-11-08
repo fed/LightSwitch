@@ -2,7 +2,7 @@
 from flask import Flask, jsonify
 
 app = Flask(__name__)
-on = 1
+on = True
 
 @app.route('/lights/toggle', methods=['GET'])
 def toggle():
