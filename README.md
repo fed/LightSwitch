@@ -1,9 +1,9 @@
 Home Automation
 ===============
 
-#### Domotics project using an Android device, an Arduino board and a Raspberry Pi
+#### Domotics project using an Android device and a Raspberry Pi.
 
-> Smart Home Automation let the user to control the home from his or her phone and assign actions that should happen depending on time or other sensor readings such as light, temperature or sound from any device in the Home Automation network.
+> Smart home automation let users control what's going on in their home from their phone and assign actions that should happen depending on time or other sensor readings such as light, temperature or sound from any device in the Home Automation network.
 
 What Can Home Automation Do?
 ==
@@ -18,7 +18,7 @@ What Can Home Automation Do?
 
 Project Features
 ==
-* Control upto four home appliances wirelessly (expandable based on free IO pins).
+* Control up to four home appliances wirelessly (expandable based on free IO pins).
 * Monitor status of your home like temperature inside and outside of your home,light intensity inside and outside of your home, motion (presence) on the main entrance,LPG leak in the home and status of you main door.
 * Open/close your main door electrically and wirelessly.
 * As the android application is password protected ,it automatically adds security to your home as it can be controlled by the user only.

@@ -2,15 +2,29 @@
 from flask import Flask, jsonify
 
 app = Flask(__name__)
+on = 1
 
-response = {
-    'on': 1,
-    'message': u'Status changed!',
-}
+@app.route('/lights/toggle', methods=['GET'])
+def toggle():
+    global on
 
-@app.route('/lights/', methods=['GET'])
-def get_tasks():
-    return jsonify({'response': response})
+    on = not on
+
+    response = {
+        'on': on
+    }
+
+    return jsonify(response)
+
+@app.route('/lights/status', methods=['GET'])
+def status():
+    global on
+
+    response = {
+        'on': on
+    }
+
+    return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host= '0.0.0.0')
