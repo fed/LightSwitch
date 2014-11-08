@@ -16,15 +16,16 @@ TO DO
 Screenshots
 ==
 
-App Info | Getting data from the server
---- | ---
-<img src="Images/about.png" style="width: 250px;" /> | <img src="Images/getting_status.png" style="width: 250px;" />
-
-~
-
-Lights are OFF | Lights are ON
---- | ---
-<img src="Images/lights_off.png" style="width: 250px;" /> | <img src="Images/lights_on.png" style="width: 250px;" />
+<table style="text-align: center;">
+	<tr>
+		<td><img src="Images/about.png" style="width: 250px;" /></td>
+		<td><img src="Images/getting_status.png" style="width: 250px;" /></td>
+	</tr>
+	<tr>
+		<td><img src="Images/lights_off.png" style="width: 250px;" /></td>
+		<td><img src="Images/lights_on.png" style="width: 250px;" /></td>
+	</tr>
+</table>
 
 Useful Links
 ==
