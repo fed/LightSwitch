@@ -1,9 +1,9 @@
 Home Automation
 ===============
 
-#### Domotics project using an Android device and a Raspberry Pi.
+#### Switching lights on and off remotely with a Raspberry Pi and an Android device
 
-> This is a simple home-automation tool that relies on HTTP requests being sent back and forth from an Android app to a Python script running on a Raspberry Pi to remotely turn lights or other devices on and off.
+> This is a simple home automation tool that relies on HTTP requests being sent back and forth from an Android app to a Python script running on a Raspberry Pi to remotely turn lights or other devices on and off.
 
 Project Features
 ==
@@ -11,7 +11,8 @@ TO DO
 
 Architecture
 ==
-TO DO
+
+<img src="Images/architecture.png" style="width: 100%;" />
 
 Screenshots
 ==
