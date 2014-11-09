@@ -41,3 +41,8 @@ Simple RESTful API using Python:
 
 Home automation with Raspberry PI and Arduino using Node.js, MongoDB, HTML5 and Websockets:
 * http://ni-c.github.io/heimcontrol.js/
+
+GPIO libraries:
+* http://pythonhosted.org/RPIO/rpio_py.html#ref-rpio-py-additions
+* http://makezine.com/projects/tutorial-raspberry-pi-gpio-pins-and-python/
+* https://pypi.python.org/pypi/RPi.GPIO

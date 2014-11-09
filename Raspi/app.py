@@ -1,30 +1,43 @@
 #!flask/bin/python
 from flask import Flask, jsonify
+import lights
 
 app = Flask(__name__)
-on = True
 
+# Lights start up being off
+on = False
+
+# Toggle the current state
 @app.route('/lights/toggle', methods=['GET'])
 def toggle():
-    global on
+	global on
 
-    on = not on
+	# Toggle the lights status
+	if on:
+		lights.off()
+	else:
+		lights.on()
 
-    response = {
-        'on': on
-    }
+	on = not on
 
-    return jsonify(response)
+	response = {
+		'on': on
+	}
 
+	return jsonify(response)
+
+
+# Return the current state
 @app.route('/lights/status', methods=['GET'])
 def status():
-    global on
+	global on
 
-    response = {
-        'on': on
-    }
+	response = {
+		'on': on
+	}
 
-    return jsonify(response)
+	return jsonify(response)
+
 
 if __name__ == '__main__':
-    app.run(host= '0.0.0.0')
+	app.run(host= '0.0.0.0')
