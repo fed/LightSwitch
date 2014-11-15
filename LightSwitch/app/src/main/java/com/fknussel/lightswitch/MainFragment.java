@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.fknussel.lightswitch.networking.RaspiClient;
 
@@ -86,11 +87,13 @@ public class MainFragment extends Fragment {
             toggle_lights.setBackgroundColor(getResources().getColor(R.color.red));
             lightbulb.setAlpha(1.0f);
             on = true;
+            Toast.makeText(getActivity(), R.string.light_are_on, Toast.LENGTH_SHORT).show();
         } else {
             toggle_lights.setText(R.string.turn_lights_on);
             toggle_lights.setBackgroundColor(getResources().getColor(R.color.green));
             lightbulb.setAlpha(0.4f);
             on = false;
+            Toast.makeText(getActivity(), R.string.lights_are_off, Toast.LENGTH_SHORT).show();
         }
     }
 }
