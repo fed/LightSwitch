@@ -1,4 +1,4 @@
-Home Automation
+Light Switch
 ===============
 
 #### Switching lights remotely with a Raspberry Pi and an Android device
@@ -9,9 +9,7 @@ Home Automation
 Architecture
 ==
 
-The system architecture is somewhat simple, it consists of an Android application running on any Android device, a Raspberry Pi connected to the Internet and a
-
-Here's an overview of the project:
+The system architecture is somewhat simple, it consists of an Android application running on any Android device and a Raspberry Pi connected to the Internet. Here's an overview of the project architecture:
 
 <img src="Images/architecture.png" style="width: 100%;" />
 

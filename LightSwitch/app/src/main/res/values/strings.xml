@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">HTTP Light Switcher</string>
+    <string name="app_name">HTTP Light Switch</string>
     <string name="welcome_message">GIROC @ UTN FRSFCO</string>
     <string name="turn_lights_on">Turn the lights ON</string>
     <string name="turn_lights_off">Turn the lights OFF</string>
