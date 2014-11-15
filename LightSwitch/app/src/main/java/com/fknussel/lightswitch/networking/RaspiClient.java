@@ -7,7 +7,7 @@ import retrofit.http.GET;
 
 public class RaspiClient {
 
-    private static final String API_URL = "http://192.168.1.102:5000";
+    private static final String API_URL = "http://192.168.1.101:5000";
 
     public static Raspi getRaspiInterface() {
         // Create a very simple REST adapter which points the GitHub API endpoint.

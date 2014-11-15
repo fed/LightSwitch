@@ -57,7 +57,8 @@ public class MainFragment extends Fragment {
 
                     @Override
                     public void failure(RetrofitError error) {
-                        //Algo exploto (server not found, no pudo parsear la respuesta, se corto internet etc etc)
+                        // Algo explotó (server not found, no pudo parsear la respuesta,
+                        // se cortó internet, etc etc)
                     }
                 });
 
