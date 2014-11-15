@@ -26,9 +26,9 @@ In order for the system to work, you need to configure the IP address that the R
 Wiring the Pi
 ====
 
-In order to drive the light bulb a relay is controlled through a BC548 NPN transistor from the Raspberry Pi:
+In order to turn on and off the lightbulb, a relay is controlled through a BC548 NPN transistor from the Raspberry Pi:
 
-<img src="Images/schematic.jpg" style="width: 250px;" />
+<img src="Images/schematic.jpg" style="width: 100%;" />
 
 
 Screenshots
