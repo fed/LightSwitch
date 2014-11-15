@@ -14,7 +14,7 @@
     <string name="about_description">This is a simple home-automation tool that relies on
         HTTP requests being sent back and forth from an Android app to a Python script
         running on a Raspberry Pi to remotely turn lights or other devices on and off.</string>
-    <string name="about_more_info">More info @ https://github.com/fknussel/home-automation</string>
+    <string name="about_more_info">More info @ https://github.com/fknussel/light-switch</string>
 
     <!-- Menu -->
     <string name="action_about">About</string>
