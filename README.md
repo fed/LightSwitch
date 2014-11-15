@@ -21,7 +21,7 @@ The Android app is located under the [LightSwitch](https://github.com/fknussel/h
 Network Configuration
 ====
 
-In order for the system to work, you need to configure the IP that the Raspberry Pi got assigned when connecting to the private network within the Android application. In order to do so, pop open the ... file and change the value of the ... var.
+In order for the system to work, you need to configure the IP address that the Raspberry Pi got assigned when connecting to the private network within the Android application. In order to do so, pop open the `networking/RaspiClient.java` file and change the value of the `API_URL` var accordingly.
 
 Wiring the Pi
 ====
