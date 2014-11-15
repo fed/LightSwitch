@@ -1,6 +1,6 @@
 #!flask/bin/python
 from flask import Flask, jsonify
-import lights
+# import lights
 
 app = Flask(__name__)
 
@@ -13,10 +13,10 @@ def toggle():
 	global on
 
 	# Toggle the lights status
-	if on:
-		lights.off()
-	else:
-		lights.on()
+	# if on:
+	# 	lights.off()
+	# else:
+	# 	lights.on()
 
 	on = not on
 
