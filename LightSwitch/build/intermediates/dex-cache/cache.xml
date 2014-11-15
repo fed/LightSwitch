@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/fknussel/workspace/light-switch/LightSwitch/app/build/intermediates/pre-dexed/debug/retrofit-1.7.1-156281e4c8426efe3248ad2953bcd6a4d2083834.jar"
+        jar="/Users/fknussel/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.7.1/168a878946d665200edc733ac715b1264a6cd7b6/retrofit-1.7.1.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="168a878946d665200edc733ac715b1264a6cd7b6"/>
+    <item
+        dex="/Users/fknussel/workspace/light-switch/LightSwitch/app/build/intermediates/pre-dexed/debug/gson-2.3-57914e33d0f7474ff298321279dcd5fa25159c05.jar"
+        jar="/Users/fknussel/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce"/>
+
+</pre-dex-items>
